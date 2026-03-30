@@ -1,7 +1,6 @@
 # vamos solicitar o consumo de água em m3
 consumo = float(input("Digite o consumo de água da residência social em m3: "))
 
-# Estrutura de decisão
 if consumo <= 10:
     valor = 7.59
 elif consumo <= 20:
@@ -13,5 +12,4 @@ elif consumo <= 50:
 else:
     valor = consumo * 7.31
     
-# Saída de dados
 print(f"Valor da conta = R$ {valor:.2f}")

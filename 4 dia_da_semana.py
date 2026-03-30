@@ -1,3 +1,5 @@
+# Programa que mostra o dia da semana com base em um número
+
 num = int(input("Digite um número de 1 a 7: "))
 
 if num == 1:
@@ -15,4 +17,5 @@ elif num == 6:
 elif num == 7:
     print("Sábado")
 else:
+    # Caso o número seja inválido
     print("Opção inválida!")

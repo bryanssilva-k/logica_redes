@@ -6,8 +6,7 @@ c = float(input("Digite o lado C: "))
 
 # Verifica se pode formar um triângulo
 if a + b > c and a + c > b and b + c > a:
-    
-    # Classificação
+
     if a == b == c:
         print("Triângulo Equilátero")
     elif a == b or a == c or b == c:

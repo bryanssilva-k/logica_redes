@@ -1,16 +1,18 @@
-a = float(input("Lado 1: "))
-b = float(input("Lado 2: "))
-c = float(input("Lado 3: "))
+# Programa que verifica se três lados formam um triângulo
 
-# Verifica se forma triângulo
+a = float(input("Digite o lado A: "))
+b = float(input("Digite o lado B: "))
+c = float(input("Digite o lado C: "))
+
+# Verifica se pode formar um triângulo
 if a + b > c and a + c > b and b + c > a:
-    print("Forma um triângulo!")
-
+    
+    # Classificação
     if a == b == c:
-        print("Equilátero")
+        print("Triângulo Equilátero")
     elif a == b or a == c or b == c:
-        print("Isósceles")
+        print("Triângulo Isósceles")
     else:
-        print("Escaleno")
+        print("Triângulo Escaleno")
 else:
-    print("Não forma um triângulo!")
+    print("Não forma um triângulo")

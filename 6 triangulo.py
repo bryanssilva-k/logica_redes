@@ -4,7 +4,6 @@ a = float(input("Digite o lado A: "))
 b = float(input("Digite o lado B: "))
 c = float(input("Digite o lado C: "))
 
-# Verifica se pode formar um triângulo
 if a + b > c and a + c > b and b + c > a:
 
     if a == b == c:

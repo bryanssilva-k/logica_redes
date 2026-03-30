@@ -12,5 +12,6 @@ elif consumo <= 50:
     valor = consumo * 6.62
 else:
     valor = consumo * 7.31
-
+    
+# Saída de dados
 print(f"Valor da conta = R$ {valor:.2f}")

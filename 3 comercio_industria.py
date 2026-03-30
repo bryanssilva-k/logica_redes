@@ -1,3 +1,5 @@
+# Programa para calcular conta de água comercial/industrial
+
 consumo = float(input("Digite o consumo de água (m³): "))
 
 if consumo <= 10:

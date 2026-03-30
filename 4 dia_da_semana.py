@@ -17,5 +17,5 @@ elif num == 6:
 elif num == 7:
     print("Sábado")
 else:
-    # Caso o número seja inválido
+    
     print("Opção inválida!")

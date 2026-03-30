@@ -1,6 +1,5 @@
 salario = float(input("Digite o salário: "))
 
-# INSS (exemplo simplificado)
 if salario <= 1320:
     inss = salario * 0.075
 elif salario <= 2571:
@@ -8,7 +7,6 @@ elif salario <= 2571:
 else:
     inss = salario * 0.12
 
-# IRRF (simplificado)
 if salario <= 1903.98:
     irrf = 0
 elif salario <= 2826.65:

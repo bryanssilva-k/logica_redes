@@ -1,10 +1,12 @@
+import math
+
 n1 = float(input("Digite o primeiro número: "))
 n2 = float(input("Digite o segundo número: "))
 
 print("1-Adição 2-Subtração 3-Multiplicação 4-Divisão")
 print("5-Potência 6-Raiz quadrada 7-Par 8-Ímpar")
 
-op = int(input("Escolha: "))
+op = int(input("Escolha uma opção: "))
 
 if op == 1:
     print(n1 + n2)

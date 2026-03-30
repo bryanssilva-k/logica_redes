@@ -1,4 +1,6 @@
-consumo = float(input("Digite o consumo de água em m3: "))
+# Programa para calcular conta de água (residência normal)
+
+consumo = float(input("Digite o consumo de água (m³): "))
 
 if consumo <= 10:
     valor = 22.38

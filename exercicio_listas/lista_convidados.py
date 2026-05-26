@@ -1,4 +1,4 @@
-lista_convidados = []
+convidados = []
 
 for i in range(5):
     nome = input(f"Digite o nome do {i + 1}º convidado: ")
